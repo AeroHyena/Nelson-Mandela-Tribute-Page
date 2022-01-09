@@ -1,7 +1,25 @@
 
+h1 {
+  font-size: 50px;
+}
+
+
+h2 {
+  font-size: 42px;
+}
+
+
+a {
+  color: #87CEEB;
+  font-size: 30px;
+}
+
+
 body {
   margin: 0;
   padding: 0;
+  background-color: #FFFDE4;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -14,8 +32,11 @@ body {
 
 #header {
   grid-column: 1/4;
-  background-color: #00040D;
   grid-row: 1/2;
+  background-color: #000000;
+  color: #FFFDE4; 
+  font-family: 'Island Moments', cursive;
+  text-align: center;
 }
 
 
@@ -25,7 +46,6 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: red;
 }
 
 
@@ -46,5 +66,7 @@ body {
 #footer {
   grid-column: 1/4;
   grid-row: 3\4;
-  background-color: black;
+  background-color: #000000;
+  font-family: 'Island Moments', cursive;
+  text-align: center;
 }
